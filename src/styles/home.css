@@ -21,18 +21,28 @@ body{
 
 .header{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    height: 12vh;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      height: 11vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 2;
+      background-color: white;
 }
 
-.links{
+ul{
     display: flex;
     flex-direction: row;
     align-items: center;
     font-size: 1.5em;
     gap: 25px;
+}
+
+li{
+    list-style: none;
 }
 
  .link{
@@ -55,7 +65,8 @@ body{
 }
 
 .main{
-    height: 88vh;
+    height: 89vh;
+    margin-top: 110px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -63,6 +74,10 @@ body{
    background: url(/src/images/home-bg.jpg);
    background-repeat: no-repeat;
    background-size: cover;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
 }
 .dscr{
     text-align: center;
@@ -75,5 +90,5 @@ body{
     letter-spacing: 0.8px;
 }
 .dscr p{
-    margin-top: 30px;
+    margin-top: 40px;
 }
