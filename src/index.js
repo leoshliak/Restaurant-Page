@@ -3,6 +3,8 @@ import './styles/home.css';
 import home from './scripts/home';
 import './styles/menu.css';
 import menu from './scripts/menu';
+import './styles/contact.css';
+import contact from './scripts/contact';
 
   const content = document.querySelector('#content'); 
   const dscr = document.createElement('div');
@@ -15,8 +17,6 @@ import menu from './scripts/menu';
   
  const homePage = document.getElementById('home');
   homePage.addEventListener('click', () => {
-    //content.firstChild.remove();
-    //content.append(home());
     home();
   });
 
@@ -25,20 +25,8 @@ import menu from './scripts/menu';
     menu();
   });
 
- //document.addEventListener('DOMContentLoaded', function() {});
- /* <div class="header">
-        <div class="logo">
-            <h1>My Restaurant</h1>
-        </div>
-           <div class="links">
-           <div><a class="link" href="">Home</a></div>
-           <div><a class="link" href="">Menu</a></div>
-           <div><a class="link" href="">Contact</a></div>
-        </div>
-        </div>
-        <div class="main">
-            <div class="dscr">
-          <h1>My great restaurant</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Magni cum culpa nostrum sapiente.</p>
-        </div>
-        </div>*/
+  const contactPage = document.getElementById('contact');
+  contactPage.addEventListener('click', () =>{
+    contact()
+  });
+

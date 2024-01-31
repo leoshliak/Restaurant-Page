@@ -37,7 +37,7 @@
     dish4.innerHTML = '<img src="/home/b0n_banan/repos/Restaurant-Page/src/images/cheeseburger.webp" alt="">';
     const cardText4 = document.createElement('div');
     cardText4.classList.add('card-text');
-    cardText4.innerHTML = '<strong class="price">$ 10.99</strong><h3>Cheesecake</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>';
+    cardText4.innerHTML = '<strong class="price">$ 10.99</strong><h3>Cheeseburger</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>';
     dish4.appendChild(cardText4);
 
     const dish5 = document.createElement('div');
