@@ -71,7 +71,7 @@ li{
    flex-direction: column;
    justify-content: center;
    align-items: end;
-   background: url(/src/images/home-bg.jpg);
+   background: url(/dist/images/home-bg.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    position: fixed;
